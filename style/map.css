@@ -1,0 +1,299 @@
+
+#map-container {
+    width: 100%;
+    height: 400px;
+}
+
+#expand-btn {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    color: #258839;
+    font-size: 12px;
+    line-height: 1;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(254, 254, 254, 0.07);
+    border-radius: 4px;
+    z-index: 999;
+    border-width: 0px;
+    border-style: solid;
+}
+
+.text-content {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 0px solid #000;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+
+.tel-title {
+    padding-right: 10px;
+    color: #258839;
+    font-size: 14px
+}
+
+.tel-list {
+    height: 400px;
+    max-height: 400px !important;
+    overflow-y: scroll;
+    margin-top: 8px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 2;
+    text-shadow: 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839, 0 0 1px #258839
+}
+
+.tel-list span {
+    display: inline-block;
+    width: 75px;
+    text-align: right
+}
+
+.tel-list a {
+    color: #fff;
+    text-decoration: none
+}
+
+.tel-list p {
+    color: black;
+    text-align: center;
+}
+
+#tel-logo {
+    margin-right: 4px;
+    width: 13px;
+    height: 16px
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    /* 你可以根据需要自定义宽度 */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* 你可以自定义滑动条的颜色 */
+}
+
+.drawer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 290px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.drawerMap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px 5px 0 0;
+    overflow-y: auto;
+    z-index: 999;
+}
+
+.msg-info {
+    margin-top: 16px;
+    font-size: 14px
+}
+
+.msg-info-title {
+    color: #000;
+    font-weight: 700;
+    line-height: 1
+}
+
+.msg-info-list {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    line-height: 2
+}
+
+.msg-intro {
+    margin-top: 12px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    line-height: 1.5
+}
+
+.msg-title {
+    position: relative;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.msg-title.community {
+    color: #e60012
+}
+
+.msg-navigation {
+    position: absolute;
+    width: 100px;
+    top: 10px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    color: #258839;
+    font-size: 13px;
+    font-weight: 400
+}
+
+.msg-navigation img {
+    margin-right: 4px;
+    width: 20px;
+    height: 20px;
+    vertical-align: initial
+}
+
+.tel-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.map-list-title,
+.map-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.map-list {
+    padding: 24px 0
+}
+
+.map-list-title img {
+    width: 16px;
+    height: 16px
+}
+
+.map-list-item img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px
+}
+
+.map-list-item+.map-list-item {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f5f5f5
+}
+
+.map-list-item img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px
+}
+
+.map-list-item span {
+    flex-grow: 1
+}
+
+.image-class {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.pop-info {
+    position: fixed;
+    text-align: left; 
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    line-height: 1;
+    background: #fff;
+    box-shadow: 0 -4px 4px rgba(0, 0, 0, .05);
+    border-radius: 4px;
+    z-index: 9999999
+}
+
+.pop-box {
+    position: fixed;
+    z-index: 9999999
+}
+
+.map-list-title,
+.map-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.map-list {
+    padding: 24px 0
+}
+
+.map-list-title img {
+    width: 16px;
+    height: 16px
+}
+
+.map-list-item img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px
+}
+
+.map-list-item+.map-list-item {
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #f5f5f5
+}
+
+.map-list-item img {
+    margin-right: 12px;
+    width: 24px;
+    height: 24px
+}
+
+.map-list-item span {
+    flex-grow: 1
+}
+
+.map-list-item i {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    display: block
+}
+
+.map-list-item i::before,
+.map-list-item i::after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    border: 1px solid black;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: translate(-150%, -50%) rotate(135deg);
+    left: 20px;
+    top: 50%;
+}
